@@ -1,0 +1,6 @@
+1. persistence.xml for database connection
+2. Entity package to map the tables in database using annotation 
+	2.1 (@entity, @table(name = "table_name"), @id for primary key) 
+	2.2 with implements Serializable(inheritance for not allowing any other method except getters and setters, variables & constructors)
+3. dao(Data Access Objects) package to infractions 
+	3.1 here we need to do CRUD Operation

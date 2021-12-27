@@ -1,0 +1,5 @@
+package com.cg.JPADemoSingleLevelIneheritance.entities;
+
+public class Manager {
+
+}

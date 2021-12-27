@@ -1,0 +1,5 @@
+package com.cg.jpaCRUD.entities;
+
+public class Book {
+
+}

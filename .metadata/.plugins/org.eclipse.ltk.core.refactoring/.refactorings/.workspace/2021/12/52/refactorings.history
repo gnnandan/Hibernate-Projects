@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;JPA_CRUD_Operation&apos; to &apos;JPA_CRUD_Operation_Level-1&apos;&#x0D;&#x0A;- Original element: &apos;JPA_CRUD_Operation&apos;&#x0D;&#x0A;- Renamed element: &apos;JPA_CRUD_Operation&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;JPA_CRUD_Operation&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=JPA_CRUD_Operation" name="JPA_CRUD_Operation_Level-1" references="true" stamp="1640409305689" version="1.0"/>
+</session>

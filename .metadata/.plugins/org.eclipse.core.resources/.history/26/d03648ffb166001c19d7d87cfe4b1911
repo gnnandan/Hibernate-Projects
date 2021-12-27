@@ -1,0 +1,5 @@
+package com.cg.JPAOneToOneUnidirection.entities;
+
+public class Address {
+
+}

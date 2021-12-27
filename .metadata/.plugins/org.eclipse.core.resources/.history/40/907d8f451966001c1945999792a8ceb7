@@ -1,0 +1,59 @@
+package com.cg.JPADemoSingleLevelIneheritance.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp_database")
+public class Employee implements Serializable
+{
+	/**
+	 * @Note - Where there is entity class we need to give SerialVersionUID=1L;
+	 */
+	public static final long SerialVersionUID=1L;
+	
+	@Id
+	private int employeeID;
+	private String name;
+	private double salary;
+	
+	
+	public int getEmployeeID() 
+	{
+		return employeeID;
+	}
+	public void setEmployeeID(int employeeID) 
+	{
+		this.employeeID = employeeID;
+	}
+	
+	
+	public String getName() 
+	{
+		return name;
+	}
+	
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	
+	public double getSalary()
+	{
+		return salary;
+	}
+	
+	
+	public void setSalary(double salary)
+	{
+		this.salary = salary;
+	}
+	
+	
+	
+}

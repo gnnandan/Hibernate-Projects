@@ -1,0 +1,5 @@
+package com.cg.jpaCRUD.service;
+
+public interface BookService {
+
+}

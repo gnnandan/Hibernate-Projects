@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.invoke.ClassSpecializer.Factory"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.dao.StudentDaoImpl"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.service.StudentServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.service.StudentService"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.entities.Student"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorType"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.Generated"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorValue"/>
+    <fullyQualifiedTypeName name="com.cg.JPADemoSingleLevelIneheritance.entities.Employee"/>
+    <fullyQualifiedTypeName name="com.cg.JPADemoSingleLevelIneheritance.entities.Manager"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+    <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="com.cg.JPAClassPerTable.entities.Employee"/>
+    <fullyQualifiedTypeName name="com.cg.JPAClassPerTable.entities.Manager"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.dao.JPAUtil"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.Query"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.dao.BookDaoImpl"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.service.BookServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.service.BookService"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.dao.BookDao"/>
+    <fullyQualifiedTypeName name="com.cg.jpaCRUD.entities.Book"/>
+</qualifiedTypeNameHistroy>

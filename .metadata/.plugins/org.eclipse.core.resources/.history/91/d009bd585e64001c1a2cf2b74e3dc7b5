@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.cg.jpaCRUD.dao;
+
+/**
+ * @author NANDANGN
+ *
+ */
+public interface StudentDao {
+
+}

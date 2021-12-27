@@ -1,0 +1,6 @@
+package com.cg.jpaCRUD.service;
+
+public class StudentServiceImpl 
+{
+
+}

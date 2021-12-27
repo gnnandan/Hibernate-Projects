@@ -1,0 +1,12 @@
+package com.cg.JPAClassPerTable.entities;
+
+public class main_Client
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

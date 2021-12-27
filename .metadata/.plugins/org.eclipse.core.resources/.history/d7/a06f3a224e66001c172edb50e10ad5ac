@@ -1,0 +1,5 @@
+package com.cg.jpaCRUD.dao;
+
+public class BookDaoImpl {
+
+}
