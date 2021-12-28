@@ -1,5 +1,0 @@
-package com.cg.jpaCRUD.dao;
-
-public interface Studentdao {
-
-}
