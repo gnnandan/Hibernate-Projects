@@ -37,11 +37,7 @@ public class Client
 		System.out.println("Data added");
 		manager.close();
 		factory.close();
-		
-		
-		
-		
-		
+
 	}
 
 }
