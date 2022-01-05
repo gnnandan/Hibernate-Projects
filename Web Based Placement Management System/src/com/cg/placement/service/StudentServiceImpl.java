@@ -1,8 +1,8 @@
 package com.cg.placement.service;
 
-import com.cg.placement.entities.IStudentRepository;
 import com.cg.placement.entities.Student;
-import com.cg.placement.entities.StudentRepositoryImpl;
+import com.cg.placement.repository.IStudentRepository;
+import com.cg.placement.repository.StudentRepositoryImpl;
 
 public class StudentServiceImpl implements IStudentService 
 {

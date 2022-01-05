@@ -32,8 +32,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="com.cg.JPAOneToOneUnidirection.entities.Address"/>
     <fullyQualifiedTypeName name="com.cg.JPAOneToOneUnidirection.entities.Student"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
@@ -41,9 +39,17 @@
     <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="com.cg.JPAOneToOneBidirection.entities.Address"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="com.cg.JPAOneToOneBidirection.entities.Address"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.cg.placement.repository.JPAUtil"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.IStudentService"/>
+    <fullyQualifiedTypeName name="com.cg.placement.entities.IStudentRepository"/>
+    <fullyQualifiedTypeName name="com.cg.placement.entities.StudentRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.cg.placement.entities.Student"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.StudentServiceImpl"/>
 </qualifiedTypeNameHistroy>

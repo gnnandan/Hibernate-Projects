@@ -1,5 +1,0 @@
-package com.cg.JPAClassPerTable.entities;
-
-public class Manager {
-
-}

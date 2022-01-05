@@ -1,6 +1,8 @@
 package com.cg.placement.client;
 
+import com.cg.placement.entities.Certificate;
 import com.cg.placement.entities.Student;
+import com.cg.placement.service.ICertificateServiceImpl;
 import com.cg.placement.service.StudentServiceImpl;
 
 public class Client 
@@ -9,10 +11,14 @@ public class Client
 	public static void main(String[] args)
 	{
 		// CRUD operation calling activity
+		//student class
 		Student student = new Student();
 		
-		StudentServiceImpl service = new StudentServiceImpl();
+		//certificate class
+		Certificate certificate = new Certificate();
 		
+		StudentServiceImpl service = new StudentServiceImpl();
+		ICertificateServiceImpl cer_service = new ICertificateServiceImpl();
 		
 		//Create student
 		student.setId(1);
@@ -26,12 +32,26 @@ public class Client
 		student.setCollege("VTU");
 		service.addStudent(student);
 		
+		
+		//create certificate
+		certificate.setId(1);
+		certificate.setYear(2021);
+		certificate.setCollege("VTU");
+		
+		
+		
 		//Retrieve
 		student = service.searchStudentById(1);
 		System.out.println("ID is: " + student.getId());
 		System.out.println("Name is: " + student.getName());
 		System.out.println("Roll is:"+student.getRoll());
 		System.out.println("College is:"+student.getCollege());
+		
+		//Retrieve
+		certificate = cer_service.searchCertificate(1);
+		System.out.println("ID is: " + certificate.getId());
+		System.out.println("College is:"+certificate.getCollege());
+		System.out.println("Year is:"+certificate.getYear());
 		
 		
 		//update

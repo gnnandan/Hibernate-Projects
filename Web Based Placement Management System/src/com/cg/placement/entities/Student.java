@@ -94,5 +94,4 @@ public class Student
 		this.hallTicketNo = hallTicketNo;
 	}
 	
-	
 }
