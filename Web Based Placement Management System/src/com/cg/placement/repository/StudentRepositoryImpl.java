@@ -101,7 +101,6 @@ public class StudentRepositoryImpl implements IStudentRepository
 	@Override
 	public void deleteStudent(int id)
 	{
-		// TODO Auto-generated method stub
 		Student student = entityManager.find(Student.class, id);
 		entityManager.remove(student);
 	}

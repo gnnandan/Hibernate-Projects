@@ -13,6 +13,7 @@ public class JPAUtil
 	//static block
 	static
 	{
+		
 		factory = Persistence.createEntityManagerFactory("JPA-PU");
 	}
 	

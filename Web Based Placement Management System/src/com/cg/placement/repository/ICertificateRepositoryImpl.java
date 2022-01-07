@@ -62,8 +62,4 @@ public class ICertificateRepositoryImpl implements ICertificateRepository
 			entityManager.getTransaction().commit();
 			
 		}
-		
-		
-		
-
 }

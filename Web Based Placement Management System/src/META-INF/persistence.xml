@@ -10,12 +10,12 @@ version="2.0">
 <property name="javax.persistence.jdbc.driver"
 value="com.mysql.jdbc.Driver" />
 <property name="javax.persistence.jdbc.url"
-value="jdbc:mysql://localhost:3306/student_database" />
+value="jdbc:mysql://localhost:3306/placement_database" />
 <property name="javax.persistence.jdbc.user" value="root" />
-<property name="javax.persistence.jdbc.password"
-value="Nandan" />
+<property name="javax.persistence.jdbc.password" value="Nandan" />
 
-<property name="hibernate.hbm2ddl.auto" value="update"/>	<!-- for auto create/update tables -->
+<!-- for auto create/update tables -->
+<!--<property name="hibernate.hbm2ddl.auto" value="update"/>-->
 </properties>
 </persistence-unit>
 </persistence>

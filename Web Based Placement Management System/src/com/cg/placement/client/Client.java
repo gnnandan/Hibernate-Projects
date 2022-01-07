@@ -23,21 +23,26 @@ public class Client
 		//Create student
 		student.setId(1);
 		student.setName("Nandan");
-		student.setRoll(2);
-		student.setQualification("Naveen");
+		student.setRoll(1);
+		student.setQualification("BE");
 		student.setCourse("CSE");
+		student.setCollege("KIT");
 		student.setYear(2021);
-		student.setCertificate("Cerified Python Level 1");
 		student.setHallTicketNo(41);
-		student.setCollege("VTU");
+		
+		
+		
+		//create a certificate
+		certificate.setCertificate_id(101);
+		certificate.setCertificate_year(2020);
+		certificate.setCertificate_college("KIT");
+		
+		//one to one (writing data to database in one to one mapping)
+		student.setCertificate(certificate);
+		certificate.setStudent(student);
+		
 		service.addStudent(student);
-		
-		
-		//create certificate
-		certificate.setId(1);
-		certificate.setYear(2021);
-		certificate.setCollege("VTU");
-		
+		cer_service.addCertificate(certificate);
 		
 		
 		//Retrieve
@@ -47,18 +52,12 @@ public class Client
 		System.out.println("Roll is:"+student.getRoll());
 		System.out.println("College is:"+student.getCollege());
 		
-		//Retrieve
-		certificate = cer_service.searchCertificate(1);
-		System.out.println("ID is: " + certificate.getId());
-		System.out.println("College is:"+certificate.getCollege());
-		System.out.println("Year is:"+certificate.getYear());
-		
 		
 		//update
-		student	= service.searchStudentById(1);
-		student.setCollege("Kalpataru Institute Of Technology");
-		service.updateStudent(student);
-		System.out.println("Update is successful");
+//		student	= service.searchStudentById(1);
+//		student.setCollege("Kalpataru Institute Of Technology");
+//		service.updateStudent(student);
+//		System.out.println("Update is successful");
 
 		//delete
 //		student	= service.searchStudentById(1);

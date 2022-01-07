@@ -1,14 +1,21 @@
 package com.cg.placement.entities;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="student")
+@Table(name="students_info")
 public class Student
 {
 	@Id //primary key column names
+	
+	//@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private int id;
 	private String name;
 	private String college;
@@ -16,47 +23,53 @@ public class Student
 	private String qualification;
 	private String course;
 	private int year;
-	private String certificate;
 	private int hallTicketNo;
 	
 	
 	//getters and setters 
-	public int getId()
-	{
+	public int getId() {
 		return id;
 	}
-	public void setId(int id)
-	{
+
+	public void setId(int id) {
 		this.id = id;
 	}
+	
 	public String getName()
 	{
 		return name;
 	}
+
 	public void setName(String name)
 	{
 		this.name = name;
 	}
+	
 	public String getCollege()
 	{
 		return college;
 	}
+	
 	public void setCollege(String college)
 	{
 		this.college = college;
 	}
+	
 	public int getRoll()
 	{
 		return roll;
 	}
+	
 	public void setRoll(int roll)
 	{
 		this.roll = roll;
 	}
+	
 	public String getQualification()
 	{
 		return qualification;
 	}
+	
 	public void setQualification(String qualification)
 	{
 		this.qualification = qualification;
@@ -65,6 +78,7 @@ public class Student
 	{
 		return course;
 	}
+	
 	public void setCourse(String course)
 	{
 		this.course = course;
@@ -73,25 +87,33 @@ public class Student
 	{
 		return year;
 	}
+	
 	public void setYear(int year)
 	{
 		this.year = year;
 	}
-	public String getCertificate()
-	{
-		return certificate;
-	}
-	public void setCertificate(String certificate)
-	{
-		this.certificate = certificate;
-	}
+	
 	public int getHallTicketNo()
 	{
 		return hallTicketNo;
 	}
+	
 	public void setHallTicketNo(int hallTicketNo)
 	{
 		this.hallTicketNo = hallTicketNo;
 	}
+	
+	@OneToOne(cascade =CascadeType.ALL)
+	@JoinColumn(name = "certificate_id")
+	private Certificate certificate;
+	public Certificate getCertificate()
+	{
+		return certificate;
+	}
+	public void setCertificate(Certificate certificate)
+	{
+		this.certificate = certificate;
+	}
+	
 	
 }
