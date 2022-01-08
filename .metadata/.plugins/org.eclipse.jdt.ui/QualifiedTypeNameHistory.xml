@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.cg.jpaCRUD.service.StudentServiceImpl"/>
-    <fullyQualifiedTypeName name="com.cg.jpaCRUD.service.StudentService"/>
-    <fullyQualifiedTypeName name="com.cg.jpaCRUD.entities.Student"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorColumn"/>
-    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorType"/>
-    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorValue"/>
-    <fullyQualifiedTypeName name="com.cg.JPADemoSingleLevelIneheritance.entities.Employee"/>
-    <fullyQualifiedTypeName name="com.cg.JPADemoSingleLevelIneheritance.entities.Manager"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
     <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
     <fullyQualifiedTypeName name="com.cg.JPAClassPerTable.entities.Employee"/>
     <fullyQualifiedTypeName name="com.cg.JPAClassPerTable.entities.Manager"/>
@@ -38,7 +27,6 @@
     <fullyQualifiedTypeName name="com.cg.placement.entities.StudentRepositoryImpl"/>
     <fullyQualifiedTypeName name="com.cg.placement.service.StudentServiceImpl"/>
     <fullyQualifiedTypeName name="com.cg.placement.service.ICertificateService"/>
-    <fullyQualifiedTypeName name="com.cg.placement.repository.ICertificateRepository"/>
     <fullyQualifiedTypeName name="com.cg.placement.repository.ICertificateRepositoryImpl"/>
     <fullyQualifiedTypeName name="com.cg.placement.service.ICertificateServiceImpl"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
@@ -51,13 +39,25 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="com.cg.placement.entities.User"/>
     <fullyQualifiedTypeName name="com.cg.placement.service.IUserService"/>
     <fullyQualifiedTypeName name="com.cg.placement.repository.IUserRepository"/>
-    <fullyQualifiedTypeName name="com.cg.placement.service.IUserServiceImpl"/>
     <fullyQualifiedTypeName name="com.cg.placement.repository.IUserRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.cg.placement.entities.User"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.IUserServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cg.placement.repository.ICertificateRepository"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.ICollegeService"/>
+    <fullyQualifiedTypeName name="com.cg.placement.repository.ICollegeRepository"/>
+    <fullyQualifiedTypeName name="com.cg.placement.repository.ICollegeRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.ICollegeServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cg.placement.entities.College"/>
+    <fullyQualifiedTypeName name="javax.persistence.IdClass"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.IPlacementService"/>
+    <fullyQualifiedTypeName name="com.cg.placement.repository.IPlacementRepository"/>
+    <fullyQualifiedTypeName name="com.cg.placement.repository.IPlacementRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.cg.placement.entities.Placement"/>
+    <fullyQualifiedTypeName name="com.cg.placement.service.IPlacementServiceImpl"/>
 </qualifiedTypeNameHistroy>

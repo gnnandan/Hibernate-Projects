@@ -93,7 +93,7 @@ public class StudentRepositoryImpl implements IStudentRepository
 	@Override
 	public void commitTrasaction()
 	{
-		entityManager.getTransaction().commit();;
+		entityManager.getTransaction().commit();
 		
 	}
 	

@@ -16,7 +16,7 @@ public class Student
 	@Id //primary key column names
 	
 	//@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	private int id;
+	private int student_id;
 	private String name;
 	private String college;
 	private int roll;
@@ -28,11 +28,11 @@ public class Student
 	
 	//getters and setters 
 	public int getId() {
-		return id;
+		return student_id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int student_id) {
+		this.student_id = student_id;
 	}
 	
 	public String getName()

@@ -32,17 +32,17 @@ public class ICertificateRepositoryImpl implements ICertificateRepository
 		
 		//search
 		@Override
-		public Certificate searchCertificate(int id)
+		public Certificate searchCertificate(int certificate_id)
 		{
-			Certificate certificate = entityManager.find(Certificate.class, id);
+			Certificate certificate = entityManager.find(Certificate.class, certificate_id);
 			return certificate;
 		}
 		
 		//delete 
 		@Override
-		public Certificate deleteCertificate(int id)
+		public Certificate deleteCertificate(int certificate_id)
 		{
-			Certificate certificate = entityManager.find(Certificate.class, id);
+			Certificate certificate = entityManager.find(Certificate.class, certificate_id);
 			entityManager.remove(certificate);
 			return certificate;
 		}

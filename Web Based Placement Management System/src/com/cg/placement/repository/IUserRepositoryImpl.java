@@ -6,7 +6,7 @@ import com.cg.placement.entities.User;
 
 public class IUserRepositoryImpl implements IUserRepository
 {
-	//Step-1 Begin JPA Life Cycle
+		//Step-1 Begin JPA Life Cycle
 		private EntityManager entityManager;
 		public IUserRepositoryImpl() 
 		{
